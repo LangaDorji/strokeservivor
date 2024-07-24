@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/contact.css">
+    </head>
+<body>
+    <div class="content">
+        <div class="myhead">
+            <header class="header">
+                <nav>
+                    <button onclick="toggleMenu()">☰</button>
+                    <ul id="nav-menu">
+                        <li><a href="index.html"><b>About Me</b></a></li>
+                        <li><a href="challange.html"><b>Challanges</b></a></li>
+                        <li><a href="expereince.html"><b>Experience</b></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+         <section id="challange">
+        <h2>Contact Information</h2>
+        <p>You can contact me either by phone number or email</p>
+        <p><label>Phone Number:</label> 17580112<br>
+        <label>Email Address:</label> langa@gmail.com</p>
+
+        <p>Or, send me a message directly on Facebook Messenger:</p>
+        <a class="messagebutton" href="https://m.me/YOUR_FACEBOOK_LangaDorji" target="_blank">
+            <button type="button">Send Message on Facebook Messenger</button>
+        </a>
+    </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Langa Dorji</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

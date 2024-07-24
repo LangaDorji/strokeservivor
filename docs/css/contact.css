@@ -1,0 +1,72 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .content {
+            flex: 1;
+        }
+        .myhead {
+            background-color: skyblue;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav button {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                display: none;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            nav ul.show {
+                display: flex;
+            }
+            nav button {
+                display: block;
+            }
+        }
+        #challange {
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: gray;
+        }
+        .messagebutton button {
+            background-color: #E74C3C; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
